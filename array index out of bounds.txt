@@ -1,0 +1,17 @@
+Package test ;
+Public class   {
+Public static void main ( String [] args )   {
+try  {
+int [] arr = {1,2,3 } ;
+system.out,println ( arr [5] ) ;   }
+catch ( Arithmetic Exception e )   {
+system.out.println ( “math error “ ) ;
+}
+catch ( ArrayIndexOutofBoundsException e )   {
+System.out.println ( “ Array index out of bounds “ ) ;
+}
+Catch ( Exception e )   {
+System.out.println ( “some other error occurred” ) ;
+           }
+    }
+}

@@ -1,0 +1,17 @@
+class Circle   {
+double radius ;
+Circle ( double r )  {
+radius =r;
+double area=3.14*radius*radius ;
+return area ;  
+}
+Static void circle1 ()  {
+double perimeter=2*3.14*radius ;
+return perimrter;
+}
+Public static void main (String [] args )   {
+Circle C=new Circle (7.0) ;
+C.Circle () ;
+Circle1 ();
+     }
+}

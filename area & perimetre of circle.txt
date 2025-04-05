@@ -1,0 +1,17 @@
+import java.util.scanner ;
+Public class ConMethod  {
+Public ConMethod (int r)   {
+double area=3.14*r*r ;
+system.out.println(area);
+}
+Static void ex (int s)   {
+double p=2*3.14*s;
+ system.out.println (p) ;  }
+Public static void main (String [] args )  {
+ Scanner a=new scanner (system.in);
+ int radius=a.nextInt ();
+ConMethod SS=new ConMethod (radius);
+ex (radius) ; 
+        }
+}
+

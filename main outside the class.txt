@@ -1,0 +1,16 @@
+Class student A  {
+int roll no;
+String name;
+float percentage;  }
+class Test student1  {
+Public static void main (String [] args )  {
+student S1=new student A ();
+student S1=new student A ();
+S1.roll no=37;
+S1.name=”RAM”;
+S2.percentage=80;
+System.out.println(S1.roll no);
+System.out.println(S1.name);
+System.out.println(S2.percentage);
+     }
+}

@@ -1,0 +1,13 @@
+Package test; 
+Public class   {
+Public static void main ( String [] args )   {
+try {
+       int result=10/0 ;
+      system.out.println ( result ) ;
+}
+catch ( Arithmetic Exception e )    {
+system.out.println (“Error , scanner divide by zero “) ;
+}
+System.out.println ( “program continues …..”) ;
+     }
+}

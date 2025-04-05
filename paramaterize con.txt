@@ -1,0 +1,11 @@
+class Rcoem   {
+  String name;
+  Rcoem (String n)   {
+System.out.println(“Constructor is called”);  
+Name=n;
+}
+Public static void main (String [] args )    {
+Rcoem obj=new Rcoem (“ENCS”);
+System.out.println(“The name is” + obj.name);
+     } 
+}

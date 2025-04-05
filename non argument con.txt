@@ -1,0 +1,8 @@
+class  Constructor   {
+             Constructor ()  {
+system.out.println(“I am non-argument Constructor”);   }
+Public static void main (String [] args )   {
+Constructor a=new Constructor () ;
+System.out.println(a.Constructor);
+       }
+}

@@ -1,0 +1,12 @@
+Package test ;
+Public class ExceptionWithoutTryCatch   {
+Public static void main (String [] args )  {
+    int numerator=10 ;
+   int denominator=0;
+system.out.println (numerator ) ;
+system.out.println ( denominator ) ;
+int result=numerator/denominator ;
+system.out.println (“result:”+result) ;
+     }
+}
+

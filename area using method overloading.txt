@@ -1,0 +1,28 @@
+Package test ;
+import java.util.scanner ;
+Public class overloading  {
+  Static int area ( int s )  {
+ return s*s  ;
+}
+Static double area ( double r )  {
+   return ( 22*r*r ) / 7 ;
+}
+Static double area ( double h , double b )  {
+    return ( b*h ) / 2 ;
+}
+Public static void main ( String [] args )  {
+Scanner sc = new scanner ( system.in ) ;
+System.out.println ( “ enter radius “ ) ;
+ double r= sc.nextDouble () ;
+system.out.println (“ enter side “ ) ;
+int s = sc.nextInt () ;
+system.out.println ( “ enter height “ ) ;
+double h = sc.nextDouble () ;
+system.out.println ( “ enter breadth “ ) ;
+double b = sc.nextDouble () ;
+system.out.println ( “ the area of square is “+ area (s) ) ;
+system.out.println ( “ the area of circle is”+area (r) ) ;
+system.out.println (“ the area of triangle is”+area (h,b) ) ;
+     }
+}
+

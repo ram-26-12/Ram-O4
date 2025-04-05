@@ -1,0 +1,11 @@
+public class student  {
+int roll no;
+String name;
+Public static void main (String [] args )  {
+Student S1=new student ();
+S1.roll no=37;
+S1.name=”RAM”;
+System.out.println(S1.roll no);
+System.out.println(S1.name);
+    }
+}

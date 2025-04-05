@@ -1,0 +1,16 @@
+import java.io.File ;
+public class FileCreate   {
+public static void main ( String [] args )  {
+try   {
+File.file=new File (“ABC.txt “) ;
+if ( File.Create new File () )   {
+system.out.println ( “File Created: “+File.name () ) ;    }
+else  {  
+system.out.println (“File already exists” )   }
+}
+catch ( IoException e )  {
+system.out.println ( “an error occurred “ )
+  e.print Stack Trace ()  ;
+       }
+  }
+}

@@ -1,0 +1,15 @@
+import java.io.IoException ;
+impot java.io.FileWriter ;
+public class FileWriter {
+     public static void main ( String [] args )  {
+try  {
+FileWriter write=new FileWriter ( “ABC.txt” ) ;
+Writer.write (“Hello I am RAM “)
+Writer.close () ;
+System.out.println ( “successfully write”) ;
+}
+Catch ( IoException e )   {
+System.out.println ( “ an error occurred “) ;
+e.print Stack Trace () :    }
+          }
+}

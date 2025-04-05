@@ -1,0 +1,14 @@
+import java.File Input stream ;
+import java.File Output stream ;
+import java.IoException ;
+class ReadFile  {
+public static void main ( String [] args )   {
+File Input stream r= new File Input stream (“ABC.txt”) ;
+File Output stream w= new File Output stream (“ABC.txt”) ;
+Int i ‘;
+While ( (i=r.read () ) != -1 )   {
+           w.write ( (char) i )  ;
+}
+System.out.println ( “data copied successfully “ ) ;
+    } 
+}

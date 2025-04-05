@@ -1,0 +1,25 @@
+int days;
+days=5;
+switch (days){
+case1:
+system.out.println(“Monday”);
+break;
+case2:
+system.out.println(“Tuesday”);
+break;
+case3:
+system.out.println(“Wednesday”);
+break;
+case4:
+system.out.println(“Thursday”);
+break;
+case5:
+system.out.println(“Friday”);
+break;
+case6:
+system.out.println(“Saturday”);
+break;
+case7:
+system.out.println(“Sunday”);
+break;
+}

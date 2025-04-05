@@ -1,0 +1,14 @@
+Package test ;
+Public class calculations {
+Public static void main ( String [] args ) {
+int w=5;
+int m=6;
+system.out.println ( w+m ) ;
+system.out.println( w-m ) ;
+system.out.println (w*m ) ;
+system.out.println ( w&m ) ;
+system.out.println ( w/m ) ;
+system.out.println (w>4 && m>3) ;
+           }
+}
+

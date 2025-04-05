@@ -1,0 +1,10 @@
+Public class student  {
+int id;
+String name;
+void display ()  {
+system.out.println (id+” “+name);   }
+Public static void main (String [] args )  {
+Student S1=new student () ;
+S1.display ();
+    }   
+}

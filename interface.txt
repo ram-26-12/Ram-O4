@@ -1,0 +1,29 @@
+import java.util.scanner ;
+interface calculator   {
+double add ( int a, int b ) ;
+double sub ( int a, int b);
+double mul ( int a, int b) ;
+}
+class Icalculator implements Calculator   {
+int add (double a, double b )  {
+int c=a+b ;
+return c;  }
+int sub ( double a, double b )   {
+int c=a-b ;
+return c;  }
+int mul ( double a, double b )   {
+int c=a*b ;
+return c ;   }
+public static void main (String [] args )   {
+scanner sc=new scanner  
+Icalculator calculator=new Icalculator () ;
+System.out.println(“enter first numbers:”) ;
+double a=sc.nextdouble () ;
+System.out.println(“enter second numbers:”) ;
+double b=sc.nextdouble  () ;
+system.out.println (“addition:”+calculator.add (a+b)) ;
+system.out.println (“subtraction:”+calculator.sub (a-b)) ;
+system.out.println (“multiplication:”+calculator.mul(a*b)) ;
+   }
+}
+
